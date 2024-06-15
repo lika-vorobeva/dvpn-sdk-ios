@@ -1,0 +1,8 @@
+framework module "DVPNSDK" {
+	header "ref.h"
+    header "Norsedvpnsdk.objc.h"
+    header "Universe.objc.h"
+    header "DVPNSDK.h"
+
+    export *
+}
